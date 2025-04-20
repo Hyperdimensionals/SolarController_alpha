@@ -112,21 +112,7 @@ void display_SH1106::printEnvParam_6x8(
 }
 
 /*!
- *  @brief  Prints entire screen readouts
- *  @param  temp
- *          temperature (char *)
- *  @param  temp_status
- *          on/off status of temperature control device (bool)
- *  @param  hum
- *          humidity (char *)
- *  @param  hum_status
- *          on/off status of humidity control device (bool)
- *  @param  target
- *          target temperature of controller (float)
- *  @param  minutes_on
- *          num minutes device has been on (float)
- *  @param  resets
- *          Number of resets for DHT hard reset library
+ *  @brief  Prints full screen readout
  */
 void display_SH1106::printAllReadouts(
   char *pv_watts, char*load_watts, char *bat_volts, char *relay_state, 
