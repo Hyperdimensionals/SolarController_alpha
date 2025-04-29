@@ -32,3 +32,11 @@ This module is currently being used and tested with the following:
  - An Arduino Uno R4 Wifi board.
  - Victron MPPT controllers.
  - Load measured via a shunt and an INA169 gain current sense amplifier.
+
+## Credits
+The author of this library is Brendan Krueger.
+
+Includes a modified version of the [VictronVEDirectArduino](https://github.com/winginitau/VictronVEDirectArduino) library by Brendan McLearie.
+
+---
+<p align="center"><a href="data/documentation/images/mount_and_bonsai.jpg"><img src="data/documentation/images/mount_and_bonsai.jpg" width="350"></a></p>
